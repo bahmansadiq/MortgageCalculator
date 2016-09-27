@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Mortgage Calculator</title>
+			<!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		 		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+
+</head>
+<body>
+
+<div class="container form-horizontal">
+  		
+  <div class="form-group">
+    <h1 id="title"  class="col-sm-offset-2 col-sm-5">jQuery Morgage Calculator</h1>
+    <legend class="col-sm-offset-2 col-sm-5"></legend>
+  </div>
+
+
+
+  <div class="form-group">
+	   <label id="loanLabel" class="col-sm-2 control-label">Loan Balance</label>
+	   <div class="col-sm-5">
+	      <input type="" class="form-control" id="loanBalance">
+	   </div>
+  </div>
+
+
+  <div class="form-group">
+    <label id="interestLabel" class="col-sm-2 control-label">Interest Rate (%)</label>
+    <div class="col-sm-5">
+      <input type="number" class="form-control" id="interestRate">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label  id="loanTermLabel" class="col-sm-2 control-label">Loarn Term (years)</label>
+    <div class="col-sm-5">
+      <input type="number" class="form-control" id="loanTermInput">
+    </div>
+  </div>
+
+    <div class="form-group">
+    <label id="periodLabel" class="col-sm-2 control-label">Period</label>
+    <div class="col-sm-5">
+      <select type="" class="form-control" id="periodOption"> </select>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-5">
+      <button type="button" id="calculatorButton" class="btn btn-primary">Calculate</button>
+    </div>
+  </div>
+  <div class="col-sm-offset-2 col-sm-5"> 
+  	 <pre> <p id ="userOutput"> </p></pre>
+  </div>
+</div>
+	<script src="index.js"> </script>
+</body>
+
+</html>
